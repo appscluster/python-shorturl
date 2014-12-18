@@ -18,7 +18,19 @@ Installation
 
 To install Python-ShortUrl:
 
+    pip install python-shorturl
+
+
+Alternatively:
+
+    wget https://github.com/appscluster/python-shorturl/archive/master.zip
+
+    7z x master.zip ( if you don't have 7z : sudo apt-get install p7zip-full )
+
+    cd python-shorturl-master/
+
     python setup.py install
+
 
 Usage
 =====
