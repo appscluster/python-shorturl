@@ -1,6 +1,6 @@
 
 ===============
-Python-ShortUrl
+Python-ShortUrl 0.0.3
 ===============
 
 A python library to shorten urls using one of three url shortening services
@@ -12,6 +12,7 @@ Supports the following services:
     -bit.ly, j.mp, bitly.com (must use login and apikey)
     
     -is.gd
+
 
 Installation
 ============
@@ -47,14 +48,18 @@ Options:
     -a  --apikey     bitly apikey
 
 Examples:
-
-    default: shorturlpy.py -u http://www.appscluster.com
     
-    tinyurl: shorturlpy.py -u http://www.appscluster.com -d tinyurl
+    default: 
+    python -m shorturlpy.shorturlpy -u http://www.appscluster.com
     
-    is.gd: shorturlpy.py -u http://www.appscluster.com -d is.gd
+    tinyurl: 
+    python -m shorturlpy.shorturlpy -u http://www.appscluster.com -d tinyurl
+    
+    is.gd: 
+    python -m shorturlpy.shorturlpy -u http://www.appscluster.com -d is.gd
 
-    bitly: shorturlpy.py -u http://www.appscluster.com -d bitly -l xyz_login -a zyx_key
+    bitly: 
+    python -m shorturlpy.shorturlpy -u http://www.domain.co -d bitly -l xyz_login -a zyx_key
 
     Note: replace xyz_login and zyx_key with your own bitly account details
 
