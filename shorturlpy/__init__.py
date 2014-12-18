@@ -1,2 +1,1 @@
-def shorturl():
-    return ('Shorturl started!')
+from .shorturlpy import ShortUrlPy
