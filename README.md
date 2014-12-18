@@ -8,7 +8,9 @@ A python library to shorten urls using one of three url shortening services
 Supports the following services:
 
     -tinyurl.com
+    
     -bit.ly, j.mp, bitly.com (must use login and apikey)
+    
     -is.gd
 
 Installation
@@ -48,10 +50,15 @@ Examples:
 Within your application:
 
     import shorturlpy
+    
     loadurl = shorturlpy.ShortUrlPy()
+    
     print loadurl.ShortenUrl('http://www.appscluster.com')
+
     print loadurl.ShortenUrl('http://www.appscluster.com', 'tinyurl')
+
     print loadurl.ShortenUrl('http://www.appscluster.com', 'is.gd')
+
     print loadurl.ShortenUrl('http://www.appscluster.com', 'bitly', 'xyz_login', 'zyx_key')
 
     Note: replace xyz_login and zyx_key with your own bitly account details
