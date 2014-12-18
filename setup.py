@@ -16,7 +16,7 @@ if sys.argv[-1] == 'publish':
 VERSION = "0.0.2"
 
 setup(
-    name="Python-ShortUrl",
+    name="python-shorturl",
     version=VERSION,
     description="Python url shortner library for tinyurl.com, is.gd and bit.ly",
     author="Abdul Hamid",
@@ -28,7 +28,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=[
-        "Topic :: Web",
+        "Topic :: API",
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Operating System :: OS Independent",
