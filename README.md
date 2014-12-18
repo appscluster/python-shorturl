@@ -58,4 +58,4 @@ Within your application:
     
 Tested on Python 2.7
 
-Developed by <a target="_blank" href="https://twitter.com/@AbdulHamidCTO">Abdul Hamid</a>
+Developed by Abdul Hamid https://twitter.com/@AbdulHamidCTO
