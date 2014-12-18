@@ -28,7 +28,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=[
-        "Topic :: API",
+        "Topic :: Utilities",
+        "Environment :: Web Environment",
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Operating System :: OS Independent",
