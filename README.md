@@ -55,3 +55,7 @@ Within your application:
     print loadurl.ShortenUrl('http://www.appscluster.com', 'bitly', 'xyz_login', 'zyx_key')
 
     Note: replace xyz_login and zyx_key with your own bitly account details
+    
+Tested on Python 2.7
+
+Developed by `Abdul Hamid <https://twitter.com/@AbdulHamidCTO>`_
