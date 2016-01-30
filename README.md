@@ -1,6 +1,6 @@
 
 ===============
-Python-ShortUrl 0.0.3
+Python-ShortUrl 0.0.4
 ===============
 
 A python library to shorten urls using one of three url shortening services
