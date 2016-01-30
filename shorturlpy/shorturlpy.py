@@ -4,17 +4,17 @@
 # 06 March 2014
 # ah@appscluster.com
 
-import sys, time, inspect, os.path, getopt
+import sys, time, os.path, getopt, socket
 import urllib2, urllib
 
 HEADERS = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36'}
 HEADERS_MOBILE = {'User-Agent':'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'}
 
 MAX_ATTEMPTS = 3
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 
 class ShortUrlPy():
-    """docstring foShortUrlPyme"""
+    """docstring for ShortUrlPy"""
     def __init__(self, **arg):
         self.arg = arg
 
@@ -77,14 +77,14 @@ class ShortUrlPy():
 
 
 def main(argv):
-    url=None
-    default='Any'
-    login=''
-    apikey=''
+    url = None
+    default = 'Any'
+    login = ''
+    apikey = ''
     try:
         script_file = os.path.basename(__file__)
         output = '\nPython URL shortener, Created By Abdul Hamid, 6 March 2014, Version:'+VERSION
-        output+= '\nLast Modified 17 December 2014'
+        output+= '\nLast Modified 30 January 2016'
         output+= '\nEmail: ah@appscluster.com\n'
         output+= '\nUsage: '+script_file+' [-u] [-d] [-l] [-a]'
         output+= '\nOptions: \n'
