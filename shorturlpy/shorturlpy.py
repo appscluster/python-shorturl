@@ -118,7 +118,7 @@ def main(argv):
         loadurl = ShortUrlPy()
         print loadurl.ShortenUrl(url, default, login, apikey)
     else:
-        print 'ERROR: Please make the url is fully formed eg. http://www.google.co.uk\n'
+        print 'ERROR: Please make sure the url is fully formed eg. http://www.google.co.uk\n'
         raw_input("Press Enter to continue...")
         print output
 
