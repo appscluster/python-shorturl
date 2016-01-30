@@ -82,4 +82,4 @@ Within your application:
     
 Tested on Python 2.7
 
-Developed by Abdul Hamid https://twitter.com/@AbdulHamidCTO
+Developed by Abdul Hamid https://twitter.com/AbdulHamidCEO
